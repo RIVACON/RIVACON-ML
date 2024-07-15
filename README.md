@@ -26,7 +26,10 @@ No, but we will upload more notebooks from time to time.
 
 ## Contents
 
-1.1) Time series predicition (for stock prices) using Echo State Networks
+1) Time series predicition 
+
+- 1.1) Predicting Stock Prices using Echo State Networks
+- 1.2) Prediction Stock Prices using a simple RNN
 
 
 Enjoy!
