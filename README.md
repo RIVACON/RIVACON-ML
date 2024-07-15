@@ -24,12 +24,12 @@ However, every time we will introduce a concept, we will also add a link to a re
 
 No, but we will upload more notebooks from time to time.
 
-## Contents
+# Contents
 
-1) Time series predicition 
+## Time series predicition 
 
-1.1) Predicting Stock Prices using Echo State Networks
-1.2) Prediction Stock Prices using a simple RNN
+- [Predicting Stock Prices using Echo State Networks](1_Time_Series_Predicition/1.1_Predicting_Stock_Prices_ESN.ipynb)
+- Prediction Stock Prices using a simple RNN
 
 
 Enjoy!
