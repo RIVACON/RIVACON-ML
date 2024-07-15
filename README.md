@@ -16,9 +16,8 @@ Every notebook is (almost) independent from the others and ready to use. Therefo
 
 Not for absolute beginners.
 
-In these notebooks I will not explain the basic knowledge in statistics, financial mathematics and python programming.
-However, every time I will introduce a concept, I will also add a link to a reference or source. 
-
+In these notebooks we will not explain the basic knowledge in statistics, financial mathematics and python programming.
+However, every time we will introduce a concept, we will also add a link to a reference. 
 
 
 ## Is this series of notebooks complete?
@@ -26,7 +25,8 @@ However, every time I will introduce a concept, I will also add a link to a refe
 No, but we will upload more notebooks from time to time.
 
 ## Contents
-1.1) Time series predicition using Echo State Networks
+
+1.1) Time series predicition (for stock prices) using Echo State Networks
 
 
 Enjoy!
