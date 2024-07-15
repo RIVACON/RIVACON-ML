@@ -29,7 +29,7 @@ No, but we will upload more notebooks from time to time.
 ## Time series predicition 
 
 - [Predicting Stock Prices using Echo State Networks](1_Time_Series_Predicition/1.1_Predicting_Stock_Prices_ESN.ipynb)
-- Prediction Stock Prices using a simple RNN
+- [Predicting Stock Prices using a simple RNN](1_Time_Series_Predicition/1.2_Predicting_Stock_Prices_SimpleRNN.ipynb)
 
 
-Enjoy!
+# Enjoy!
