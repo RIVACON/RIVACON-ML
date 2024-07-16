@@ -33,3 +33,5 @@ No, but we will upload more notebooks from time to time.
 
 
 # Enjoy!
+
+[<img src="images/logo.png" width='300px'>](https://www.rivacon.com/en/)
