@@ -22,6 +22,13 @@ No, but we will upload more notebooks from time to time.
 - [Predicting Stock Prices using Echo State Networks](Time_Series_Predicition/Predicting_Stock_Prices_ESN.ipynb)
 - [Predicting Stock Prices using a simple RNN](Time_Series_Predicition/Predicting_Stock_Prices_SimpleRNN.ipynb)
 
+## Valuation with Neural Networks
+
+- [European Call Option](Valuation_with_Neural_Networks/European_Call_Option.ipynb)
+- [Binary Options](Valuation_with_Neural_Networks/Binary_Options.ipynb)
+- [Barrier Options](Valuation_with_Neural_Networks/Barrier_Options.ipynb)
+
+
 
 # Enjoy!
 
