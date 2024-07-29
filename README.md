@@ -25,6 +25,7 @@ No, but we will upload more notebooks from time to time.
 ## Valuation with Neural Networks
 
 - [European Call Option](Valuation_with_Neural_Networks/European_Call_Option.ipynb)
+- [Approx. of ATM European Call Option using KANs](Valuation_with_Neural_Networks/Approx_ATM_Call_Option_using_KAN.ipynb)
 - [Binary Options](Valuation_with_Neural_Networks/Binary_Options.ipynb)
 - [Barrier Options](Valuation_with_Neural_Networks/Barrier_Options.ipynb)
 
