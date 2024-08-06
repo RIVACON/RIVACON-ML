@@ -29,6 +29,10 @@ No, but we will upload more notebooks from time to time.
 - [Binary Options](Valuation_with_Neural_Networks/Binary_Options.ipynb)
 - [Barrier Options](Valuation_with_Neural_Networks/Barrier_Options.ipynb)
 
+## OpenAI Embedding in Python
+ - a [compact notebook](01_openai_embedding/notebook_openai_public.ipynb)
+    where we briefly introduce the role of Generative Learning and explore
+    three use cases in Finance
 
 
 # Enjoy!
