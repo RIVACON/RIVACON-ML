@@ -11,11 +11,20 @@ Every notebook is (almost) independent from the others and ready to use. Therefo
 Note that in these notebooks we will not explain the basic knowledge in statistics, financial mathematics and python programming.
 However, every time we will introduce a concept, we will also add a link to a reference. 
 
+By clicking on the **binder** badge at the top, you can start a safari through the notebooks. 
+
+Updates and announcements for upcomming notebooks will be posted on our LinkedIn profile, so be sure to [follow us on LinkedIn](https://de.linkedin.com/company/rivacon-gmbh) to stay up to date.
+
+
 ## Is this series of notebooks complete?
 
 No, but we will upload more notebooks from time to time.
 
 # Contents
+
+## GPT and Python
+
+- [Integrate and use GPT with Python](GPT_and_Python/GPT_and_Python.ipynb)
 
 ## Time series predicition 
 
