@@ -25,24 +25,6 @@ By clicking on the **binder** badge at the top, you can start a safari through t
 
 - [Integrate and use GPT with Python](GPT_and_Python/GPT_and_Python.ipynb)
 
-## Time series predicition 
-
-- [Predicting Stock Prices using Echo State Networks](Time_Series_Predicition/Predicting_Stock_Prices_ESN.ipynb)
-- [Predicting Stock Prices using a simple RNN](Time_Series_Predicition/Predicting_Stock_Prices_SimpleRNN.ipynb)
-
-## Valuation with Neural Networks
-
-- [European Call Option](Valuation_with_Neural_Networks/European_Call_Option.ipynb)
-- [Approx. of ATM European Call Option using KANs](Valuation_with_Neural_Networks/Approx_ATM_Call_Option_using_KAN.ipynb)
-- [Binary Options](Valuation_with_Neural_Networks/Binary_Options.ipynb)
-- [Barrier Options](Valuation_with_Neural_Networks/Barrier_Options.ipynb)
-
-## OpenAI Embedding in Python
- - a [compact notebook](01_openai_embedding/notebook_openai_public.ipynb)
-    where we briefly introduce the role of Generative Learning and explore
-    three use cases in Finance
-
-
 # Enjoy!
 
 Updates and announcements for upcomming notebooks will be posted on our LinkedIn profile, so be sure to [follow us on LinkedIn](https://de.linkedin.com/company/rivacon-gmbh) to stay up to date.
