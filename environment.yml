@@ -16,7 +16,6 @@ dependencies:
     - jupyter-contrib-nbextensions>=0.5.1
     - tensorflow>=2.2
     - yfinance
-# Biagio: adding dependencies for openai-notebook
   - openai
   - pypdf
   
