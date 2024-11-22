@@ -1,4 +1,4 @@
-[![RIVACON](https://img.shields.io/badge/powered%20by-RIVACON-lightgrey.svg)](https://www.rivacon.com/en/)
+[![RIVACON](https://img.shields.io/badge/powered%20by-RIVACON-011B40.svg)](https://www.rivacon.com/en/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RIVACON/ML_In_Finance/main)
 
 # Machine Learning in Finance
