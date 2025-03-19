@@ -1,0 +1,42 @@
+@prefix : <http://test.org/onto.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://test.org/onto.owl> a owl:Ontology .
+
+:ComputingModel a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Dataset a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Datasource a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Indicator a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Institution a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Instrument a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Metric a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Portfolio a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Position a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:ReportingFramework a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Subcategory a owl:Class ;
+    rdfs:subClassOf :Category .
+
+:Category a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
