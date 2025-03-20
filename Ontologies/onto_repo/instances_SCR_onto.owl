@@ -179,9 +179,9 @@
   <rdf:type rdf:resource="#Category"/>
   <DividedInto rdf:resource="#operational"/>
   <DividedInto rdf:resource="#market"/>
-  <DividedInto rdf:resource="#health_underwriting"/>
-  <DividedInto rdf:resource="#non_life_underwriting"/>
   <DividedInto rdf:resource="#counter_party_default"/>
+  <DividedInto rdf:resource="#non_life_underwriting"/>
+  <DividedInto rdf:resource="#health_underwriting"/>
   <DividedInto rdf:resource="#life_underwriting"/>
   <rdf:type rdf:resource="#ReportingFramework"/>
 </owl:NamedIndividual>
@@ -220,10 +220,10 @@
 
 <owl:NamedIndividual rdf:about="#best_portfolio">
   <rdf:type rdf:resource="#Portfolio"/>
+  <HasPositions rdf:resource="#position_4"/>
+  <HasPositions rdf:resource="#position_2"/>
   <HasPositions rdf:resource="#position_3"/>
   <HasPositions rdf:resource="#position_1"/>
-  <HasPositions rdf:resource="#position_2"/>
-  <HasPositions rdf:resource="#position_4"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#position_1">
@@ -286,35 +286,35 @@
 <owl:NamedIndividual rdf:about="#Market_Risk_Module">
   <rdf:type rdf:resource="#ComputingModel"/>
   <HasCategory rdf:resource="#market"/>
+  <DependentVariableMetric rdf:resource="#Interest_Rate_Risk_sub_module"/>
   <DependentVariableMetric rdf:resource="#Property_Risk_sub_module"/>
   <DependentVariableMetric rdf:resource="#Equity_Risk_sub_module"/>
-  <DependentVariableMetric rdf:resource="#Interest_Rate_Risk_sub_module"/>
   <DependentVariableMetric rdf:resource="#Spread_Risk_sub_module"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mrm</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Interest_Rate_Risk_sub_module">
   <rdf:type rdf:resource="#Metric"/>
+  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">167</Article>
   <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">165</Article>
   <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">166</Article>
-  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">167</Article>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Equity_Risk_sub_module">
   <rdf:type rdf:resource="#Metric"/>
   <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">173</Article>
-  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">170</Article>
-  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">172</Article>
+  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171</Article>
   <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">168</Article>
   <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">169</Article>
-  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171</Article>
+  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">172</Article>
+  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">170</Article>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Property_Risk_sub_module">
   <rdf:type rdf:resource="#Metric"/>
   <ObtainedFromDataset rdf:resource="#book_assets.csv"/>
-  <DependentVariableIndicatorM rdf:resource="#immovable_property"/>
   <DependentVariableIndicatorM rdf:resource="#own_funds"/>
+  <DependentVariableIndicatorM rdf:resource="#immovable_property"/>
   <ObtainedFromModel rdf:resource="#Market_Risk_Module"/>
   <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">174</Article>
   <ValueDim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">euro</ValueDim>
@@ -323,13 +323,13 @@
 
 <owl:NamedIndividual rdf:about="#Spread_Risk_sub_module">
   <rdf:type rdf:resource="#Metric"/>
-  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">177</Article>
-  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">178</Article>
-  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">179</Article>
-  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">181</Article>
-  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">176</Article>
   <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">175</Article>
+  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">178</Article>
+  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">181</Article>
+  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">177</Article>
   <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">180</Article>
+  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">176</Article>
+  <Article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">179</Article>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#immovable_property">
