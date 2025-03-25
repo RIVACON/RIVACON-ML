@@ -25,6 +25,9 @@ By clicking on the **binder** badge at the top, you can start a safari through t
 
 - [Integrate and use GPT with Python](GPT_and_Python/GPT_and_Python.ipynb)
 
+## Onotlogies
+- [Ontologies Part I](Ontologies/Ontologies_Part_I.ipynb)
+
 # Enjoy!
 
 Updates and announcements for upcomming notebooks will be posted on our LinkedIn profile, so be sure to [follow us on LinkedIn](https://de.linkedin.com/company/rivacon-gmbh) to stay up to date.
