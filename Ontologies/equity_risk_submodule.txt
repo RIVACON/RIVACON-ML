@@ -1,0 +1,40 @@
+Subsection 3 
+Equity risk sub-module 
+Article 168 
+General provisions 
+1. The equity risk sub-module referred to in point (b) of the second subparagraph of Article 105(5) of Directive 
+2009/138/EC shall include a risk sub-module for type 1 equities and a risk sub-module for type 2 equities. 
+2. Type 1 equities shall comprise equities listed in regulated markets in the countries which are members of the 
+European Economic Area (EEA) or the Organisation for Economic Cooperation and Development (OECD). 
+3. Type 2 equities shall comprise equities listed in stock exchanges in countries which are not members of the EEA or 
+the OECD, equities which are not listed, commodities and other alternative investments. They shall also comprise all 
+assets other than those covered in the interest rate risk sub-module, the property risk sub-module or the spread risk 
+sub-module, including the assets and indirect exposures referred to in Article 84(1) and (2) where a look-through 
+approach is not possible and the insurance or reinsurance undertaking does not make use of the provisions in 
+Article 84(3). 
+4. The capital requirement for equity risk shall be equal to the following: 
+SCR_equity = sqrt((SCR_type1_equities)^2 +2\times.75\timesSCR_type1_equities\timesSCR_type2_equities + (SCR_type2_equities)^2)
+where: 
+(a) SCR_type1_equities denotes the capital requirement for type 1 equities; 
+(b) SCR_type2_equities denotes the capital requirement for type 2 equities. 
+5. The impact of the instantaneous decreases set out in Articles 169 and 170 on the value of participations as 
+referred to in Article 92(2) of Directive 2009/138/EC in financial and credit institutions shall be considered only on the 
+value of the participations that are not deducted from own funds pursuant to Article 68 of this Regulation. 
+6. The following equities shall in any case be considered as type 1: 
+(a) equities held within collective investment undertakings which are qualifying social entrepreneurship funds as referred 
+to in Article 3(b) of Regulation (EU) No 346/2013 of the European Parliament and of the Council where the 
+look-through approach set out in Article 84 of this Regulation is possible for all exposures within the collective 
+investment undertaking, or units or shares of those funds where the look through approach is not possible for all 
+exposures within the collective investment undertaking; 
+(b) equities held within collective investment undertakings which are qualifying venture capital funds as referred to in 
+Article 3(b) of Regulation (EU) No 345/2013 where the look-through approach set out in Article 84 of this 
+Regulation is possible for all exposures within the collective investment undertaking, or units or shares of those 
+funds where the look through approach is not possible for all exposures within the collective investment 
+undertaking; 
+(c) as regards closed-ended and unleveraged alternative investment funds which are established in the Union or, if they 
+are not established in the Union, which are marketed in the Union in accordance with Articles 35 or 40 of Directive 
+2011/61/EU: 
+(i) equities held within such funds where the look-through approach set out in Article 84 of this Regulation is 
+possible for all exposures within the alternative investment fund; 
+(ii) units or shares of such funds where the look-through approach is not possible for all exposures within the 
+alternative investment fund.

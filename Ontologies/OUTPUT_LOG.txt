@@ -1,0 +1,8 @@
+------
+Question: Describe the otology in less then 5 lines.
+
+Answer: The ontology organizes insurance-related entities, their subclasses,
+and properties. It covers risk assessment metrics, computing models, 
+datasets, and institutions. The ontology also defines entities' 
+instances and their property values.
+------
