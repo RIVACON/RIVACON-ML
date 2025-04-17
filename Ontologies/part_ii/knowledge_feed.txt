@@ -1,0 +1,184 @@
+## Class Hierarchy
+- **ReportingFramework** is a subclass of Thing.
+- **Category** is a subclass of Thing.
+- **Subcategory** is a subclass of Category.
+- **ComputingModel** is a subclass of Thing.
+- **Metric** is a subclass of Thing.
+- **Dataset** is a subclass of Thing.
+- **Indicator** is a subclass of Thing.
+- **Datasource** is a subclass of Thing.
+- **Institution** is a subclass of Thing.
+- **Portfolio** is a subclass of Thing.
+- **Position** is a subclass of Thing.
+- **Instrument** is a subclass of Thing.
+- **Property** is a subclass of Instrument.
+- **Bonds** is a subclass of Instrument.
+
+## Properties and Inheritance
+
+### Class: ReportingFramework
+**Directly Defined Properties:**
+- Object Properties: DividedInto
+
+### Class: Category
+**Directly Defined Properties:**
+- Object Properties: DividedIntoSub
+
+### Class: Subcategory
+**Inherited Properties:**
+- DividedIntoSub (from Category)
+
+### Class: ComputingModel
+**Directly Defined Properties:**
+- Object Properties: HasCategory, DependentVariableMetric, DependentVariableIndicator
+
+### Class: Metric
+**Directly Defined Properties:**
+- Object Properties: ObtainedFromModel, ObtainedFromDataset, DependentVariableIndicatorM
+
+### Class: Dataset
+**Directly Defined Properties:**
+- Object Properties: ComesFromDatasource
+
+### Class: Indicator
+**Directly Defined Properties:**
+- Object Properties: UsesDataset
+
+### Class: Datasource
+
+### Class: Institution
+**Directly Defined Properties:**
+- Object Properties: OwnsDataset, DataProvider, HasPortfolio
+
+### Class: Portfolio
+**Directly Defined Properties:**
+- Object Properties: HasPositions
+
+### Class: Position
+**Directly Defined Properties:**
+- Object Properties: IsInstrument
+
+### Class: Instrument
+
+### Class: Property
+
+### Class: Bonds
+
+## Instances and Their Values
+
+### Instances of ReportingFramework:
+- **Instance:** SCR
+- **Instance:** Risk_Modules
+
+### Instances of Category:
+- **Instance:** Risk_Modules
+- **Instance:** operational
+- **Instance:** counter_party_default
+- **Instance:** life_underwriting
+- **Instance:** health_underwriting
+- **Instance:** non_life_underwriting
+- **Instance:** market
+
+### Instances of Subcategory:
+- **Instance:** operational
+- **Instance:** counter_party_default
+- **Instance:** life_underwriting
+- **Instance:** health_underwriting
+- **Instance:** non_life_underwriting
+- **Instance:** market
+
+### Instances of ComputingModel:
+- **Instance:** Market_Risk_Module
+
+### Instances of Metric:
+- **Instance:** Equity_Risk_sub_module
+- **Instance:** Property_Risk_sub_module
+- **Instance:** Interest_Rate_Risk_sub_module
+- **Instance:** Spread_Risk_sub_module
+
+### Instances of Dataset:
+- **Instance:** book_assets.csv
+
+### Instances of Indicator:
+- **Instance:** immovable_property
+- **Instance:** own_funds
+
+### Instances of Datasource:
+- **Instance:** Internal_Department
+
+### Instances of Institution:
+- **Instance:** best_insurance_firm
+  - **Linked via HasPortfolio:** best_portfolio (inherits its properties)
+
+### Instances of Portfolio:
+- **Instance:** best_portfolio
+
+### Instances of Position:
+- **Instance:** position_3
+  - **Linked via IsInstrument:** propertyC (inherits its properties)
+- **Instance:** position_2
+  - **Linked via IsInstrument:** propertyB (inherits its properties)
+- **Instance:** position_1
+  - **Linked via IsInstrument:** propertyA (inherits its properties)
+- **Instance:** position_4
+  - **Linked via IsInstrument:** propertyD (inherits its properties)
+
+### Instances of Instrument:
+- **Instance:** propertyA
+- **Instance:** propertyB
+- **Instance:** propertyC
+- **Instance:** propertyD
+
+### Instances of Property:
+- **Instance:** propertyA
+- **Instance:** propertyB
+- **Instance:** propertyC
+- **Instance:** propertyD
+-------
+- Instance: SCR (Class: ReportingFramework)
+  - ReportingBody: European Insurance and Occupational Pensions Authority
+  - ReferenceDate: 1 July 2016
+- Instance: Risk_Modules (Class: Category)
+- Instance: operational (Class: Subcategory)
+- Instance: counter_party_default (Class: Subcategory)
+- Instance: life_underwriting (Class: Subcategory)
+- Instance: health_underwriting (Class: Subcategory)
+- Instance: non_life_underwriting (Class: Subcategory)
+- Instance: market (Class: Subcategory)
+- Instance: best_insurance_firm (Class: Institution)
+- Instance: book_assets.csv (Class: Dataset)
+- Instance: Internal_Department (Class: Datasource)
+- Instance: best_portfolio (Class: Portfolio)
+- Instance: position_3 (Class: Position)
+- Instance: position_2 (Class: Position)
+- Instance: position_1 (Class: Position)
+- Instance: position_4 (Class: Position)
+- Instance: propertyA (Class: Property)
+  - FltValue: 10000000.0
+  - ValueDim: euro
+- Instance: propertyB (Class: Property)
+  - FltValue: 1000000.0
+  - ValueDim: euro
+- Instance: propertyC (Class: Property)
+  - FltValue: 100000.0
+  - ValueDim: euro
+- Instance: propertyD (Class: Property)
+  - FltValue: 10000.0
+  - ValueDim: euro
+- Instance: Market_Risk_Module (Class: ComputingModel)
+- Instance: Equity_Risk_sub_module (Class: Metric)
+  - Article: 168, 171, 169, 170, 173, 172
+- Instance: Property_Risk_sub_module (Class: Metric)
+  - Article: 174
+  - FltValue: 2777500.0
+  - ValueDim: euro
+- Instance: Interest_Rate_Risk_sub_module (Class: Metric)
+  - Article: 165, 167, 166
+- Instance: Spread_Risk_sub_module (Class: Metric)
+  - Article: 180, 178, 179, 175, 177, 181, 176
+- Instance: immovable_property (Class: Indicator)
+  - FltValue: 11110000.0
+  - ValueDim: euro
+- Instance: own_funds (Class: Indicator)
+  - FltValue: 1000000000000.0
+  - ValueDim: euro
